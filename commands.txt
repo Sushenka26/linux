@@ -6,11 +6,11 @@ mkdir zaloha-$(date +%F)
 ps aux | more
 tar -cvf (-xvf)[z-j] jmeno.tar[.gz - .bz2] cesta
 su
-nohup příkaz (nevypínat i po odhlášení/vypnutí) 
+nohup prikaz (nevypinat i po odhlaseni/vypnuti) 
 chmod u=rwx,g-r,o+x readme.md
 chown root:root  /home/student/readme.txt
 chgrp root /home/student/readme.txt
-newgrp název
+newgrp nazev
 umask 022 v cat .bashrc 
 uniq
 sort
@@ -21,13 +21,13 @@ ln => odkaz
 du /etc -h --max-depth=1
 df -h
 free -m
-uptime => info o tom, jak dlouho běží systém
+uptime => info o tom, jak dlouho bezi system
 whoami
-w => zobrazí, kdo je v systému přihlášen a co dělá
-users => vypíše jen jména uživatelů na tomto stroji přihlášených
-last => poslední přihlášení
-id => vypíše informace o zadaném uživateli. Bez parametrů vypíše údaje o aktuálním uživateli
-which prikaz => vyhledá příkaz
+w => zobrazi, kdo je v systemu prihlasen a co dela
+users => vypise jen jmena uzivatelu na tomto stroji prihlasenych
+last => poslední prihlaseni
+id => vypíše informace o zadanem uzivateli. Bez parametru vypise udaje o aktualnim uzivateli
+which prikaz => vyhleda prikaz
 whereis
 
 sudo useradd -m username
@@ -39,6 +39,6 @@ nano ~/.bashrc
 source ~/.bashrc
 echo prikaz | sed 's.\\./.g'
 
-nice –n –5 příkaz (nastavení priorit pro příkaz) 
+nice –n –5 prikaz (nastavení priorit pro prikaz) 
 
 if [ -e $1 ] 
