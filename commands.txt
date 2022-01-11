@@ -6,7 +6,6 @@ mkdir zaloha-$(date +%F)
 ps aux | more
 tar -cvf (-xvf)[z-j] jmeno.tar[.gz - .bz2] cesta
 su
-nice –n –5 příkaz (nastavení priorit pro příkaz) 
 nohup příkaz (nevypínat i po odhlášení/vypnutí) 
 chmod u=rwx,g-r,o+x readme.md
 chown root:root  /home/student/readme.txt
@@ -39,5 +38,7 @@ cpuls 15 && nice -n 5 cpuls 15 &
 nano ~/.bashrc
 source ~/.bashrc
 echo prikaz | sed 's.\\./.g'
+
+nice –n –5 příkaz (nastavení priorit pro příkaz) 
 
 if [ -e $1 ] 
