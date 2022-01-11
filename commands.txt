@@ -1,11 +1,11 @@
 visudo
-ALL=(ALL) NOPASSWD:ALL
-CRONTAB -u user -e
+ondra ALL=(ALL) NOPASSWD:ALL
+crontab -u user -e
 now=$(date +%F)
+mkdir zaloha-$(date +%F)
 ps aux | more
 tar -cvf (-xvf)[z-j] jmeno.tar[.gz - .bz2] cesta
 su
-cpuls
 nice –n –5 příkaz (nastavení priorit pro příkaz) 
 nohup příkaz (nevypínat i po odhlášení/vypnutí) 
 chmod u=rwx,g-r,o+x readme.md
@@ -19,3 +19,25 @@ diff
 grep hledaneslovo soubor
 find /mistokde -name 'soubor'
 ln => odkaz
+du /etc -h --max-depth=1
+df -h
+free -m
+uptime => info o tom, jak dlouho běží systém
+whoami
+w => zobrazí, kdo je v systému přihlášen a co dělá
+users => vypíše jen jména uživatelů na tomto stroji přihlášených
+last => poslední přihlášení
+id => vypíše informace o zadaném uživateli. Bez parametrů vypíše údaje o aktuálním uživateli
+which prikaz => vyhledá příkaz
+whereis
+
+sudo useradd -m username
+ls -la /home/username/
+
+cpuls 15 && nice -n 5 cpuls 15 &
+
+nano ~/.bashrc
+source ~/.bashrc
+echo prikaz | sed 's.\\./.g'
+
+if [ -e $1 ] 
