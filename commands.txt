@@ -1,0 +1,21 @@
+visudo
+ALL=(ALL) NOPASSWD:ALL
+CRONTAB -u user -e
+now=$(date +%F)
+ps aux | more
+tar -cvf (-xvf)[z-j] jmeno.tar[.gz - .bz2] cesta
+su
+cpuls
+nice –n –5 příkaz (nastavení priorit pro příkaz) 
+nohup příkaz (nevypínat i po odhlášení/vypnutí) 
+chmod u=rwx,g-r,o+x readme.md
+chown root:root  /home/student/readme.txt
+chgrp root /home/student/readme.txt
+newgrp název
+umask 022 v cat .bashrc 
+uniq
+sort
+diff
+grep hledaneslovo soubor
+find /mistokde -name 'soubor'
+ln => odkaz
